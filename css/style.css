@@ -32,7 +32,7 @@ body {
 
 .container > p {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   color: #38352f;
 }
 
@@ -52,6 +52,11 @@ body {
   text-decoration: none;
   color: #38352f;
   font-weight: 700;
+}
+
+.links p:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
 }
 
 @media screen and (min-width: 768px) {
